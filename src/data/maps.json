@@ -1,0 +1,909 @@
+[
+  {
+    "Slug": "forest-labyrinth-1",
+    "DisplayName": "Forest Labyrinth 1",
+    "MonsterMinLevel": 0,
+    "MonsterMaxLevel": 0,
+    "MonsterPool": ["Bee", "Cat Meow", "Dog Pup", "Seed"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 4
+    },
+    "Connections": ["Forest Labyrinth 2","Sunny Meadows 2"]
+  },
+  {
+    "Slug": "starfall-tundra",
+    "DisplayName": "Starfall Tundra",
+    "MonsterMinLevel": 131,
+    "MonsterMaxLevel": 135,
+    "MonsterPool": [
+  "Little Star",
+  "Ice Baby",
+  "Festive Baby",
+  "Starflake",
+  "Vanilla Ice",
+  "Shadow Ice",
+  "Ice Bear",
+  "Festive Bear",
+  "Twinkle"
+],
+    "BossMonster": "Mega Ice Golem",
+    "waypoint": true,
+    "ClassNpc": "Weaver",
+    "grid": {
+      "collum": 9,
+      "row": 1
+    },
+    "Connections": ["Crystal Cave"]
+  },
+  {
+    "Slug": "forest-labyrinth-2",
+    "DisplayName": "Forest Labyrinth 2",
+    "MonsterMinLevel": 0,
+    "MonsterMaxLevel": 0,
+    "MonsterPool": ["Wisp Blue", "Fledgling", "Dog Bark", "Bird"],
+    "BossMonster": null,
+    "waypoint": false,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 3
+    },
+    "Connections": ["Forest Labyrinth 1", "Forest Labyrinth 3"]
+  },
+  {
+    "Slug": "crystal-cave",
+    "DisplayName": "Crystal Cave",
+    "MonsterMinLevel": 66,
+    "MonsterMaxLevel": 70,
+    "MonsterPool": [
+      "Ice",
+      "Snow Bomb",
+      "Dragon Water",
+      "Cyclops Minion",
+      "Icicle",
+      "Dragon Ice",
+      "Cyclops",
+      "Elder Wisp Blue",
+      "Dragon Blizzard",
+      "Cyclops Giant",
+      "Golem Ice"
+    ],
+    "BossMonster": "Ice Mage",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 9,
+      "row": 2
+    },
+    "Connections": ["Starfall Tundra", "Goblin Field"]
+  },
+  {
+    "Slug": "mystic-lake-2",
+    "DisplayName": "Mystic Lake 2",
+    "MonsterMinLevel": 36,
+    "MonsterMaxLevel": 40,
+    "MonsterPool": ["Shell", "Spike"],
+    "BossMonster": "Hermit King",
+    "waypoint": true,
+    "ClassNpc": "Wizard",
+    "grid": {
+      "collum": 4,
+      "row": 3
+    },
+    "Connections": ["Mystic Lake 1"]
+  },
+  {
+    "Slug": "forest-labyrinth-3",
+    "DisplayName": "Forest Labyrinth 3",
+    "MonsterMinLevel": 0,
+    "MonsterMaxLevel": 0,
+    "MonsterPool": ["Burrow", "Rabbit", "Sprout", "Flower Pot Monster"],
+    "BossMonster": null,
+    "waypoint": false,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 2
+    },
+    "Connections": ["Forest Labyrinth 2", "Forest Labyrinth 4", "Fairy Glen"]
+  },
+  {
+    "Slug": "fairy-glen",
+    "DisplayName": "Fairy Glen",
+    "MonsterMinLevel": 31,
+    "MonsterMaxLevel": 35,
+    "MonsterPool": [
+      "Butterfly Hue",
+      "Moth Luna",
+      "Sun Blossom",
+      "Butterfly Fairy",
+      "Glow Wisp Yellow",
+      "Moth Moon",
+      "Sunflower Fairy",
+      "Butterfly Pixie",
+      "Moth Celestial"
+    ],
+    "BossMonster": "Sunflora Pixie",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 6,
+      "row": 3
+    },
+    "Connections": ["Forest Labyrinth 3", "Treant Trail"]
+  },
+  {
+    "Slug": "goblin-field",
+    "DisplayName": "Goblin Field",
+    "MonsterMinLevel": 41,
+    "MonsterMaxLevel": 45,
+    "MonsterPool": [
+      "Goblin Minion",
+      "Goblin Trooper Mage",
+      "Goblin Trooper Assassin",
+      "Goblin Trooper",
+      "Goblin Trooper Soldier"
+    ],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 8,
+      "row": 3
+    },
+    "Connections": ["Crystal Cave", "Windy Desert North", "Goblin Village", "Goblin Cave 1"]
+  },
+  {
+    "Slug": "goblin-village",
+    "DisplayName": "Goblin Village",
+    "MonsterMinLevel": 46,
+    "MonsterMaxLevel": 50,
+    "MonsterPool": ["Goblin Giant Mage", "Goblin Giant", "Goblin Giant Devil"],
+    "BossMonster": "Goblin King",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 10,
+      "row": 3
+    },
+    "Connections": ["Goblin Field", "Goblin Warcamp", "Goblin Cave 2"]
+  },
+  {
+    "Slug": "goblin-warcamp",
+    "DisplayName": "Goblin Warcamp",
+    "MonsterMinLevel": 121,
+    "MonsterMaxLevel": 125,
+    "MonsterPool": ["Goblin Warlock", "Goblin Warblade", "Goblin Warcrusher"],
+    "BossMonster": "Goblin Warchief",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 11,
+      "row": 3
+    },
+    "Connections": ["Goblin Village"]
+  },
+  {
+    "Slug": "turtle-nexus",
+    "DisplayName": "Turtle Nexus",
+    "MonsterMinLevel": 131,
+    "MonsterMaxLevel": 135,
+    "MonsterPool": [
+  "Solar Turtle",
+  "Octopus King Blue",
+  "Octopus King Orange",
+  "Octopus King Purple",
+  "Hydro Turtle",
+  "Storm Turtle"
+],
+    "BossMonster": "Turtle King",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 1,
+      "row": 4
+    },
+    "Connections": ["Stormreef Isle"]
+  },
+  {
+    "Slug": "mystic-lake-1",
+    "DisplayName": "Mystic Lake 1",
+    "MonsterMinLevel": 31,
+    "MonsterMaxLevel": 35,
+    "MonsterPool": ["Posy", "Glow Wisp Blue", "Flora", "Petal"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 4,
+      "row": 4
+    },
+    "Connections": ["Mystic Lake 2", "Forest Labyrinth 4", "Lake Field"]
+  },
+  {
+    "Slug": "forest-labyrinth-4",
+    "DisplayName": "Forest Labyrinth 4",
+    "MonsterMinLevel": 0,
+    "MonsterMaxLevel": 0,
+    "MonsterPool": ["Butterfly Hue", "Wisp Purple", "Bumble", "Egglet"],
+    "BossMonster": null,
+    "waypoint": false,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 1
+    },
+    "Connections": ["Forest Labyrinth 3", "Mystic Lake 1"]
+  },
+  {
+    "Slug": "treant-trail",
+    "DisplayName": "Treant Trail",
+    "MonsterMinLevel": 16,
+    "MonsterMaxLevel": 20,
+    "MonsterPool": [
+      "Treant Minion Autumn",
+      "Treant Minion Evergreen",
+      "Treant Tree Autumn",
+      "Treant Tree Evergreen",
+      "Treant Forest Autumn",
+      "Treant Forest Evergreen",
+      "Flower Pot Monster"
+    ],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 6,
+      "row": 4
+    },
+    "Connections": ["Fairy Glen", "Sunny Meadows 1", "Windy Desert North"]
+  },
+  {
+    "Slug": "windy-desert-north",
+    "DisplayName": "Windy Desert North",
+    "MonsterMinLevel": 31,
+    "MonsterMaxLevel": 35,
+    "MonsterPool": ["Scorpling", "Mole Rat", "Scorpion", "Dog Bowwow", "Mole Rat King"],
+    "BossMonster": "Scorpion King",
+    "waypoint": false,
+    "ClassNpc": "Gunslinger",
+    "grid": {
+      "collum": 8,
+      "row": 4
+    },
+    "Connections": ["Treant Trail", "Goblin Field", "Windy Desert", "Forest Field 1"]
+  },
+  {
+    "Slug": "goblin-cave-1",
+    "DisplayName": "Goblin Cave 1",
+    "MonsterMinLevel": 51,
+    "MonsterMaxLevel": 55,
+    "MonsterPool": ["Monster Bat", "Zombie Goblin Minion", "Zombie Goblin Soldier"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 9,
+      "row": 4
+    },
+    "Connections": ["Goblin Field", "Goblin Cave 2"]
+  },
+  {
+    "Slug": "goblin-cave-2",
+    "DisplayName": "Goblin Cave 2",
+    "MonsterMinLevel": 56,
+    "MonsterMaxLevel": 60,
+    "MonsterPool": ["Monster Bat King", "Zombie Goblin Giant", "Abomination"],
+    "BossMonster": "Zombie Goblin King",
+    "waypoint": false,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 10,
+      "row": 4
+    },
+    "Connections": ["Goblin Cave 1","Goblin Village"]
+  },
+  {
+    "Slug": "stormreef-isle",
+    "DisplayName": "Stormreef Isle",
+    "MonsterMinLevel": 61,
+    "MonsterMaxLevel": 65,
+    "MonsterPool": [
+  "Turtle Baby",
+  "Shark Baby",
+  "Turtle Blue",
+  "Turtle Green",
+  "Turtle Red",
+  "Shark Pirate"
+],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 1,
+      "row": 5
+    },
+    "Connections": ["Turtle Nexus", "Sunken Depths", "Wayfarer's Landing"]
+  },
+  {
+    "Slug": "wayfarer-s-landing",
+    "DisplayName": "Wayfarer's Landing",
+    "MonsterMinLevel": 0,
+    "MonsterMaxLevel": 0,
+    "MonsterPool": [],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "Priest",
+    "grid": {
+      "collum": 3,
+      "row": 5
+    },
+    "Connections": ["Stormreef Isle", "Lake Field"]
+  },
+  {
+    "Slug": "lake-field",
+    "DisplayName": "Lake Field",
+    "MonsterMinLevel": 26,
+    "MonsterMaxLevel": 30,
+    "MonsterPool": ["Mushroom", "Fungi", "Toadstool"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 4,
+      "row": 5
+    },
+    "Connections": ["Wayfarer's Landing", "Sunny Meadows 2","Mystic Lake 1"]
+  },
+  {
+    "Slug": "sunny-meadows-2",
+    "DisplayName": "Sunny Meadows 2",
+    "MonsterMinLevel": 6,
+    "MonsterMaxLevel": 10,
+    "MonsterPool": ["Bee", "Bumble", "Fledgling", "Sprout", "Bird"],
+    "BossMonster": "Sting",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 5
+    },
+    "Connections": ["Lake Field", "Sunny Meadows 1", "Bunny Woods","Forest Labyrinth 1"]
+  },
+  {
+    "Slug": "sunny-meadows-1",
+    "DisplayName": "Sunny Meadows 1",
+    "MonsterMinLevel": 1,
+    "MonsterMaxLevel": 5,
+    "MonsterPool": ["Pollen", "Chick", "Egg", "Seed"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 6,
+      "row": 5
+    },
+    "Connections": ["Sunny Meadows 2", "Treant Trail", "Forest Field 1", "Nevaris"]
+  },
+  {
+    "Slug": "forest-field-1",
+    "DisplayName": "Forest Field 1",
+    "MonsterMinLevel": 11,
+    "MonsterMaxLevel": 15,
+    "MonsterPool": ["Wisp Blue", "Wisp Purple", "Wisp Red", "Wisp Yellow"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 7,
+      "row": 5
+    },
+    "Connections": ["Sunny Meadows 1", "Windy Desert North", "Windy Desert", "Forest Field 2"]
+  },
+  {
+    "Slug": "windy-desert",
+    "DisplayName": "Windy Desert",
+    "MonsterMinLevel": 26,
+    "MonsterMaxLevel": 30,
+    "MonsterPool": ["Whirlwind", "Glow Wisp Purple", "Wind", "Cat Lightning", "Wind Mage"],
+    "BossMonster": "Cat Bolt",
+    "waypoint": true,
+    "ClassNpc": "Berserker",
+    "grid": {
+      "collum": 8,
+      "row": 5
+    },
+    "Connections": [
+      "Windy Desert North",
+      "Forest Field 1",
+      "Sanctum of Light 1",
+      "Windy Desert South"
+    ]
+  },
+  {
+    "Slug": "sanctum-of-light-2",
+    "DisplayName": "Sanctum of Light 2",
+    "MonsterMinLevel": 81,
+    "MonsterMaxLevel": 85,
+    "MonsterPool": ["Bomb", "Spook", "Phantom", "Dragon Darkness", "Soul Mage"],
+    "BossMonster": "Angel Mage",
+    "waypoint": "",
+    "ClassNpc": "",
+    "grid": {
+      "collum": 10,
+      "row": 5
+    },
+    "Connections": ["Sanctum of Light 1"]
+  },
+  {
+    "Slug": "sanctum-of-light-1",
+    "DisplayName": "Sanctum of Light 1",
+    "MonsterMinLevel": 76,
+    "MonsterMaxLevel": 80,
+    "MonsterPool": [
+      "Angel",
+      "Ghost",
+      "Dragon Dusk",
+      "Soul",
+      "Archangel",
+      "Dragon Nightfall",
+      "Haunt"
+    ],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "Paladin",
+    "grid": {
+      "collum": 9,
+      "row": 5
+    },
+    "Connections": ["Sanctum of Light 2", "Windy Desert", "Underground Cavern"]
+  },
+  {
+    "Slug": "sunken-depths",
+    "DisplayName": "Sunken Depths",
+    "MonsterMinLevel": 101,
+    "MonsterMaxLevel": 105,
+    "MonsterPool": [
+      "FIsh Blue",
+      "Fish Pink",
+      "Fish Yellow",
+      "Squid Baby",
+      "Octopus Baby Blue",
+      "Octopus Baby Orange",
+      "Octopus Baby Purple",
+      "Fish Man Blue",
+      "Fish Man Pink",
+      "Fish Man Yellow",
+      "Octopus Orange",
+      "Octopus Purple",
+      "Octopus White",
+      "Shark",
+      "Merman Blue",
+      "Merman Pink",
+      "Merman Yellow"
+    ],
+    "BossMonster": "Kraken",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 1,
+      "row": 6
+    },
+    "Connections": ["Stormreef Isle"]
+  },
+  {
+    "Slug": "bunny-woods",
+    "DisplayName": "Bunny Woods",
+    "MonsterMinLevel": 21,
+    "MonsterMaxLevel": 25,
+    "MonsterPool": ["Bunny", "Egglet", "Rabbit"],
+    "BossMonster": "Hare",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 6
+    },
+    "Connections": ["Sunny Meadows 2","Nevaris Sewers"]
+  },
+  {
+    "Slug": "nevaris",
+    "DisplayName": "Nevaris",
+    "MonsterMinLevel": 0,
+    "MonsterMaxLevel": 0,
+    "MonsterPool": [],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 6,
+      "row": 6
+    },
+    "Connections": ["Nevaris Sewers", "Sunny Meadows 1", "Forest Field 2", "Festering Woods 1"]
+  },
+  {
+    "Slug": "forest-field-2",
+    "DisplayName": "Forest Field 2",
+    "MonsterMinLevel": 16,
+    "MonsterMaxLevel": 20,
+    "MonsterPool": ["Cat Meow", "Burrow", "Dog Pup", "Dog Bark"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 7,
+      "row": 6
+    },
+    "Connections": ["Forest Field 1", "Nevaris", "Windy Desert South"]
+  },
+  {
+    "Slug": "windy-desert-south",
+    "DisplayName": "Windy Desert South",
+    "MonsterMinLevel": 31,
+    "MonsterMaxLevel": 35,
+    "MonsterPool": ["Cacti", "Spore", "Cactus", "Plant Chewer", "Golem Earth"],
+    "BossMonster": "Cactus Boss",
+    "waypoint": false,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 8,
+      "row": 6
+    },
+    "Connections": ["Windy Desert", "Forest Field 2"]
+  },
+  {
+    "Slug": "underground-cavern",
+    "DisplayName": "Underground Cavern",
+    "MonsterMinLevel": 86,
+    "MonsterMaxLevel": 90,
+    "MonsterPool": [
+      "Bud",
+      "Poison Bomb",
+      "Worm Stink",
+      "Worm Rot",
+      "Bloom",
+      "Elder Wisp Purple",
+      "Blossom"
+    ],
+    "BossMonster": "Worm Creep",
+    "waypoint": true,
+    "ClassNpc": "Shinobi",
+    "grid": {
+      "collum": 9,
+      "row": 6
+    },
+    "Connections": [ "Demon's Maw","Sanctum of Light 1"]
+  },
+  {
+    "Slug": "nevaris-sewers",
+    "DisplayName": "Nevaris Sewers",
+    "MonsterMinLevel": 16,
+    "MonsterMaxLevel": 20,
+    "MonsterPool": ["Rat Dark", "Rat Grey", "Rat White"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 4,
+      "row": 7
+    },
+    "Connections": ["Bunny Woods","Nevaris"]
+  },
+  {
+    "Slug": "forgotten-depths-1",
+    "DisplayName": "Forgotten Depths 1",
+    "MonsterMinLevel": 41,
+    "MonsterMaxLevel": 45,
+    "MonsterPool": ["Bat", "Spider", "Lurker", "Snakelet", "Spider Toxin", "Creeper"],
+    "BossMonster": "Snake Naga",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 7
+    },
+    "Connections": [ "Forgotten Depths 2", "Festering Woods 1","Abyss Castle Dungeon","Windy Desert South"]
+  },
+  {
+    "Slug": "festering-woods-1",
+    "DisplayName": "Festering Woods 1",
+    "MonsterMinLevel": 21,
+    "MonsterMaxLevel": 25,
+    "MonsterPool": ["Eyeball Bat Blue", "Eyeball Bat Green", "Eyeball Bat Red", "Skeleton"],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 6,
+      "row": 7
+    },
+    "Connections": ["Nevaris", "Forgotten Depths 1", "Festering Woods 2", "Dark Forest"]
+  },
+  {
+    "Slug": "festering-woods-2",
+    "DisplayName": "Festering Woods 2",
+    "MonsterMinLevel": 26,
+    "MonsterMaxLevel": 30,
+    "MonsterPool": ["Wolf Pup", "Wolf"],
+    "BossMonster": "Werewolf",
+    "waypoint": false,
+    "ClassNpc": "Necromancer",
+    "grid": {
+      "collum": 7,
+      "row": 7
+    },
+    "Connections": ["Festering Woods 1", "Swamp","Bunny Woods"]
+  },
+  {
+    "Slug": "swamp",
+    "DisplayName": "Swamp",
+    "MonsterMinLevel": 36,
+    "MonsterMaxLevel": 40,
+    "MonsterPool": [
+      "Dragonfly Arrow",
+      "Housefly Icky",
+      "Mosquito Bug",
+      "Plant Shooter",
+      "Slime",
+      "Dragonfly Darner",
+      "Housefly Nom",
+      "Mosquito Pester"
+    ],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 8,
+      "row": 7
+    },
+    "Connections": ["Festering Woods 2", "Swamp Wilderness"]
+  },
+  {
+    "Slug": "demon-s-maw",
+    "DisplayName": "Demon's Maw",
+    "MonsterMinLevel": 96,
+    "MonsterMaxLevel": 100,
+    "MonsterPool": [
+      "Fire",
+      "Imp Mischief",
+      "Dragon Spark",
+      "Flame",
+      "Imp Demon",
+      "Dragon Fire",
+      "Shade",
+      "Elder Wisp Yellow",
+      "Fire Mage",
+      "Dragon Inferno",
+      "Shadow",
+      "Golem Fire"
+    ],
+    "BossMonster": "Imp Devil",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 10,
+      "row": 7
+    },
+    "Connections": ["Underground Cavern", "The Forge"]
+  },
+  {
+    "Slug": "the-forge",
+    "DisplayName": "The Forge",
+    "MonsterMinLevel": 126,
+    "MonsterMaxLevel": 130,
+    "MonsterPool": [
+      "Razor Robot",
+      "Shell Robot",
+      "Spike Robot",
+      "Nozzle Robot",
+      "Spiderling Robot",
+      "Nose Robot",
+      "Spider Robot",
+      "Delivery Robot",
+      "Snout Robot",
+      "Boxy Robot",
+      "Gripper Robot"
+    ],
+    "BossMonster": "Spider Queen Robot",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 11,
+      "row": 8
+    },
+    "Connections": ["Demon's Maw"]
+  },
+  {
+    "Slug": "forgotten-depths-2",
+    "DisplayName": "Forgotten Depths 2",
+    "MonsterMinLevel": 46,
+    "MonsterMaxLevel": 50,
+    "MonsterPool": ["Vampire Bat", "Snake", "Spider King", "Horror"],
+    "BossMonster": "Bat Lord",
+    "waypoint": false,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 8
+    },
+    "Connections": ["Forgotten Depths 1", "Abyss Castle Keep"]
+  },
+  {
+    "Slug": "dark-forest",
+    "DisplayName": "Dark Forest",
+    "MonsterMinLevel": 91,
+    "MonsterMaxLevel": 95,
+    "MonsterPool": [
+  "Stormjelly",
+  "Cinderspike",
+  "Sporeling",
+  "Voidspawn",
+  "Stormstinger",
+  "Fangroot",
+  "Blazewheel"
+],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 6,
+      "row": 8
+    },
+    "Connections": ["Festering Woods 1", "Night Garden", "Abyss Castle Dungeon"]
+  },
+  {
+    "Slug": "swamp-wilderness",
+    "DisplayName": "Swamp Wilderness",
+    "MonsterMinLevel": 71,
+    "MonsterMaxLevel": 75,
+    "MonsterPool": [
+      "Earthworm",
+      "Plant Monster",
+      "Slime Jelly",
+      "Worm",
+      "Dragonfly Swift",
+      "Housefly Junk",
+      "Mosquito Stinger",
+      "Plant Worm",
+      "Slime Monster"
+    ],
+    "BossMonster": "Queen Worm",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 8,
+      "row": 8
+    },
+    "Connections": ["Swamp"]
+  },
+  {
+    "Slug": "abyss-castle-library",
+    "DisplayName": "Abyss Castle Library",
+    "MonsterMinLevel": 121,
+    "MonsterMaxLevel": 125,
+    "MonsterPool": [
+      "Nightmare",
+      "Cyclops Bat Mage",
+      "Eyeball Mage Blue",
+      "Eyeball Mage Green",
+      "Eyeball Mage Red"
+    ],
+    "BossMonster": "Death Mage",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 3,
+      "row": 9
+    },
+    "Connections": ["The Echoing Spire", "Abyss Castle Keep"]
+  },
+  {
+    "Slug": "abyss-castle-keep",
+    "DisplayName": "Abyss Castle Keep",
+    "MonsterMinLevel": 111,
+    "MonsterMaxLevel": 115,
+    "MonsterPool": [
+      "Cyclops Bat",
+      "Death",
+      "Cyclops Bat Wizard",
+      "Skeleton Mage",
+      "Skeleton Giant"
+    ],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 4,
+      "row": 9
+    },
+    "Connections": [
+      "Abyss Castle Library",
+      "Abyss Castle Dungeon",
+      
+      "Abyss Castle Crypt"
+    ]
+  },
+  {
+    "Slug": "abyss-castle-dungeon",
+    "DisplayName": "Abyss Castle Dungeon",
+    "MonsterMinLevel": 106,
+    "MonsterMaxLevel": 110,
+    "MonsterPool": [
+      "Mimic Book",
+      "Mimic Living Trap",
+      "Mimic Barrel",
+      "Mimic Candle",
+      "Mimic Sword",
+      "Mimic Treasure Chest"
+    ],
+    "BossMonster": null,
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 9
+    },
+    "Connections": ["Abyss Castle Keep", "Dark Forest"]
+  },
+  {
+    "Slug": "night-garden",
+    "DisplayName": "Night Garden",
+    "MonsterMinLevel": 126,
+    "MonsterMaxLevel": 130,
+    "MonsterPool":[
+  "Voidgazer",
+  "Stormcoil",
+  "Bogbloom",
+  "Ashrend"
+],
+    "BossMonster": "Alien Big Blink",
+    "waypoint": true,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 7,
+      "row": 9
+    },
+    "Connections": ["Dark Forest"]
+  },
+  {
+    "Slug": "The-Echoing-Spire",
+    "DisplayName": "The Echoing Spire",
+    "MonsterMinLevel": 0,
+    "MonsterMaxLevel": 0,
+    "MonsterPool": [],
+    "BossMonster": null,
+    "waypoint": "",
+    "ClassNpc": "",
+    "grid": {
+      "collum": "2",
+      "row": "9"
+    },
+    "Connections": ["Abyss Castle Library"]
+  },
+  {
+    "Slug": "abyss-castle-crypt",
+    "DisplayName": "Abyss Castle Crypt",
+    "MonsterMinLevel": 116,
+    "MonsterMaxLevel": 120,
+    "MonsterPool": [
+      "Gloom",
+      "Eyeball Creep Blue",
+      "Eyeball Creep Green",
+      "Eyeball Creep Red",
+      "Grim Reaper",
+      "Direwolf"
+    ],
+    "BossMonster": "Wraith",
+    "waypoint": false,
+    "ClassNpc": "",
+    "grid": {
+      "collum": 5,
+      "row": 10
+    },
+    "Connections": ["Abyss Castle Keep"]
+  }
+]

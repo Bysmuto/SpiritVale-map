@@ -1,0 +1,11 @@
+ [
+  { "element": "Neutral", "icon": "element-neutral", "color": "#E5DDC9", "strong": [], "weak": ["Poison (75%)", "Shadow (75%)"] },
+  { "element": "Earth", "icon": "element-earth", "color": "#D48A36", "strong": ["Wind (125%)"], "weak": ["Earth (50%)", "Fire (75%)"] },
+  { "element": "Fire", "icon": "element-fire", "color": "#FF6420", "strong": ["Earth (125%)"], "weak": ["Fire (50%)", "Water (75%)"] },
+  { "element": "Water", "icon": "element-water", "color": "#10CFF6", "strong": ["Fire (125%)"], "weak": ["Water (50%)", "Wind (75%)"] },
+  { "element": "Wind", "icon": "element-wind", "color": "#FAD500", "strong": ["Water (125%)"], "weak": ["Earth (75%)", "Wind (50%)"] },
+  { "element": "Poison", "icon": "element-poison", "color": "#7AD479", "strong": ["Neutral (125%)"], "weak": ["Poison (50%)", "Undead (75%)"] },
+  { "element": "Shadow", "icon": "element-shadow", "color": "#8B6CB1", "strong": ["Neutral (125%)", "Holy (125%)"], "weak": ["Shadow (50%)"] },
+  { "element": "Holy", "icon": "element-holy", "color": "#F48EBC", "strong": ["Shadow (125%)", "Undead (125%)"], "weak": ["Holy (50%)"] },
+  { "element": "Undead", "icon": "element-undead", "color": "#4A4A4A", "strong": ["Poison (125%)"], "weak": ["Holy (75%)", "Undead (50%)"] }
+]
